@@ -90,6 +90,7 @@ Project Duration: September 2016 - April 2017 <br></H4><br>
 		   
 		</table>
 	   
+	   
 	   <li>Time Commitment</li>
 	      <table>
   		<tr>
@@ -100,7 +101,7 @@ Project Duration: September 2016 - April 2017 <br></H4><br>
   		<tr>
   		  
 		<td>Default time in clase</td>
-		<td>45H<td>	
+		<td>45H</td>	
 		<td>3 hour a day in class for the week</td>
  		 </tr>
 		
@@ -169,7 +170,35 @@ Project Duration: September 2016 - April 2017 <br></H4><br>
 		      </tr>    
 		      
 		</table>
-	   <li>Mechanical Assembly</li>
+	   <li>Mechanical Assembly<ul>
+		   <li> Get all you part</li>
+		   <li>install the software for the raseberry pi 3</li>
+		   <li>do the undates and upgrades for the pi throw the terminal</li>
+		   <li>click the start go to perferences and click raspberry Pi configuration</li>
+		   <li>on the raspberry pi configuration go to the interface and implement camrea<li>
+		   <li>shutdown the pi connect the camrea to the pi then power it up again and test it to see if it works in the terminal with the command "raspistill -o cam.jpg will take a shot of what the camrea see</li>
+		   <li> after testing the camrea we can start installing the drivers and softer need for the QR code scanner</li>
+		   <li> to start we need to install SimpleCV by opening the terminal and typing the following command:<ul>
+			   <li>sudo apt-get install ipython python-opencv python-scipy python-numpy python-setuptools python-pip</li>
+			   <li>sudo pip install https://github.com/sightmachine/SimpleCV/zipball/master</li></ul></li>
+		   <li> after the download your going open python in the terminal by typing python import SimpleCV or you can Open the python 2.7.0.9 and type import SimpleCV</li>
+		   <li> you sholudn't get any error but you might get one saying you don't have svgwrite or pyparsing so your going have to install them</li>
+		   <ul><li>sudo pip install pyparsing</li><li>sudo pip install svgwrite</li></ul>
+		   <li> know that the SimpleCV is installed were need to download driver for the camrea to recongised the the SimpleCV</li>
+		   <li> download the drive uv4l go to the following website and follow the sets<ul><a href="http://www.linux-projects.org/uv4l/installation/"></a></ul></li>
+		   <li> after you have finished downloading the uv4l and SimpleCV we can need to do a update type in the following code into the terminal "sudo apt-get update</li>
+		   <li> know we need to download Zbar library by typing in sudo apt-get install python-zbar after install is done open up python and import zbar</li>
+		   <li> Final all install are done and know we can code</li>
+		   <li> down the file in unit testing and run it</li>
+		   
+		   
+		   
+		   
+		   
+		   </ul></li>
+	   
+	   
+	   
 	   <li>PCB / Soldering</li>
 	   <li>Power Up<li>
 	 
