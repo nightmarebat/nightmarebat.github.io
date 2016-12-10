@@ -172,26 +172,18 @@ Project Duration: September 2016 - April 2017 <br></H4><br>
 		</table>
 	   <li>Mechanical Assembly<ul>
 		   <li> Get all you part</li>
-		   <li>install the software for the raseberry pi 3</li>
-		   <li>do the undates and upgrades for the pi throw the terminal</li>
-		   <li>click the start go to perferences and click raspberry Pi configuration</li>
-		   <li>on the raspberry pi configuration go to the interface and implement camrea<li>
-		   <li>shutdown the pi connect the camrea to the pi then power it up again and test it to see if it works in the terminal with the command "raspistill -o cam.jpg will take a shot of what the camrea see</li>
-		   <li> after testing the camrea we can start installing the drivers and softer need for the QR code scanner</li>
-		   <li> to start we need to install SimpleCV by opening the terminal and typing the following command:<ul>
-			   <li>sudo apt-get install ipython python-opencv python-scipy python-numpy python-setuptools python-pip</li>
-			   <li>sudo pip install https://github.com/sightmachine/SimpleCV/zipball/master</li></ul></li>
-		   <li> after the download your going open python in the terminal by typing python import SimpleCV or you can Open the python 2.7.0.9 and type import SimpleCV</li>
-		   <li> you sholudn't get any error but you might get one saying you don't have svgwrite or pyparsing so your going have to install them</li>
-		   <ul><li>sudo pip install pyparsing</li><li>sudo pip install svgwrite</li></ul>
-		   <li> know that the SimpleCV is installed were need to download driver for the camrea to recongised the the SimpleCV</li>
-		   <li> download the drive uv4l go to the following website and follow the sets<ul><a href="http://www.linux-projects.org/uv4l/installation/"></a></ul></li>
-		   <li> after you have finished downloading the uv4l and SimpleCV we can need to do a update type in the following code into the terminal "sudo apt-get update</li>
- 		   <li> know we need to download Zbar library by typing in sudo apt-get install python-zbar after install is done open up python and import zbar</li>
-		   <li> Final all install are done and know we can code</li>
-		   <li> down the file in unit testing and run it</li>
+		   <li> Cerate the PCB board and solder it together</li>
+		   <li> Onces that is done use a breadborard to make a voltage divider and connect a seperate power supply to it and connect the out to the AU0 pin on the PCB PCF8591T and remove the fist jumper cable</li> 		   
+		   <li> Now connect the camrea and the PCB borad to the rasebrrey pi 3</li>
+		   <li> if you bought the 5' display screen and the powersupply that was in the buget then your going to what to connect them to.
+			   The power supply conncet to the diplay use output2 beacuse it will give you 5V by 2A which you need for the diplay. 
+			   The Display sonnect to the rassbrry pi 3 by HTML.</li>
+		   <li>you can also make cases for the camra, diplay and the device show beleow</li>
 		   
 		   
+		   
+		   
+		   <li>know that the Assembly is done we know start the power up where i will give you the step to make the QR_code reader</li>
 		   
 		   
 		   
@@ -200,15 +192,13 @@ Project Duration: September 2016 - April 2017 <br></H4><br>
 	   
 	   
 	   <li>PCB / Soldering<ul>
-		   <li> First you will need to download Eagle the link is</li>
-		   <a href="https://cadsoft.io/"><div align="left"> Eagle</div></a>
-		   <li>after the download and installing of eagle you will need to download the following folder</li>
+		   <li> First you will need to download Eagle the link is provide below:</li>
+		   <a href="https://cadsoft.io/"><div align="left"> Eagle Software</div></a>
+		   <li>After the download and installing of eagle you will need to download the following folder</li>
 		   <a href="nightmarebat.github.io/documents/ModularSenseHatStripped-master" download>
-			   <p>Download ModularHatStripped</p></a>
-		   <li>open the file in Eagle make the borad print it out and then solder it and it will look somthing like the:</li>
+			   <p>ModularHatStripped folder</p></a>
+		   <li>open the borard file in Eagle make the borad print it out and then solder it and it will look somthing like the:</li>
 		   <img src="images/PCB.jpg" alt="PCB" height="800" width="800">
-		   
-		   
 		   </ul></li>
 	   <li>Power Up<li>
 	 
