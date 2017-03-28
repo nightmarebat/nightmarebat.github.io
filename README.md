@@ -683,7 +683,9 @@ belt then lock in place with by connect the pipe and case together with the
 dowel form one side of the case to the there.
 
 \- After that is done you will connect the turnbuckles to both side of the last
-dowel and the second dowel this will be used to stretch out the belt.
+dowel and the second dowel this will be used to stretch out the belt.We got the
+idea of using the turnbuckles to tighten the belt form website that was written 
+by Chrisk13 how make his how conveyor belt.[1]
 
 \- Once all that is done turn on the motor and test the belt out to see it move.
 
